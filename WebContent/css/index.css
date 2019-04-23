@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+	background-color: #111;
+	color: #777;
+}
+
+
+a, a:visited {
+	color: #787;
+	text-decoration: none;
+}
+
+
+.my-tr-gold { background-color: #c17d11; }
+.my-tr-red { background-color: #ef2929; }
+
+.my-tr-gold, .my-tr-red { color: #111; }
+.my-tr-gold a, .my-tr-red a { color: #fff; }
+
+td,th { padding: 10px; border: 1px solid #000; }
+th{
+  text-align: center;
+  background-color: #79FFAF;
+}
+
+
+#show {
+	background-color: white;
+	color: black;
+}
+
+#return {
+	background-color: white;
+	color: black;
+}
+
+#update {
+	background-color: blue;
+}
